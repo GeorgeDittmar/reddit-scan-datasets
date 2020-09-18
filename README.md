@@ -1,2 +1,5 @@
 # reddit-scan-datasets
-datasets of raw text from reddit 
+Simple datasets pulled from reddit to do nlp on. Related to the Enki project.
+
+Current datasets:
+Titless
