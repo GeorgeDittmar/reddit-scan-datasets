@@ -4,7 +4,7 @@ Simple datasets pulled from reddit to do nlp on. Related to the Enki project.
 Current datasets:
 Titles from various subreddits.
 
-Largest dataset are titles scrapped from the conpsiracy subreddit with over 480k examples.
+Largest dataset are titles scrapped from the conpsiracy subreddit with over 480k examples. They are split up by data pull session but will also contain a single merged file of all previous pulls.
 
 Included is a utility script to merge these text datasets together to form new datasets from base files. Below is an example command to run the script which will take the path, get all files found via the path and then merge to a new file.
 
