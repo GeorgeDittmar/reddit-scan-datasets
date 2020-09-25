@@ -1,6 +1,10 @@
 import argparse
 import glob
 
+"""
+Utility script to merge text data sets together to form new data sets. 
+"""
+
 
 def read_file(file_path):
     with open(file_path, "r") as f:
@@ -13,6 +17,7 @@ def merge(paths):
 
 def read_directory(dir_path):
     return glob.glob(dir_path)
+
 
 def main():
     parser = argparse.ArgumentParser(description='Utility to merge multiple line by line text files together to make'
