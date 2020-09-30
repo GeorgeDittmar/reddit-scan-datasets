@@ -28,7 +28,7 @@ def main():
 
     if args.directory and args.output:
         file_paths = read_directory(args.directory)
-        merged_files = merge(file_paths)
+        merged_files = set(merge(file_paths))
 
         with open(args.output, "w") as file_handler:
             file_handler.writelines("%s\n" % line.strip() for line in merged_files)
